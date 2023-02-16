@@ -1,4 +1,7 @@
+ # test 1
+
  - 1
+ ```
  let french = Number(
     prompt("french fries 60rs per piece  do you want to order")
    );
@@ -22,8 +25,9 @@
   Manchurian:${Manchurian}*${Manchuriantotal}
   Cokes:${cokes}*${cokestotal}
    Total Bill:${total}`);
-
+```
  - 2
+ ```
  for (let i = 5; i >= 1; i--) {
     let a = "";
    for (let j = 1; j <= i; j++) {
@@ -35,12 +39,14 @@
    }
     console.log(a);
   }
-
+```
  - 10
+ ```
  let c="hello world"
  console.log(c.length);
-
+```
  - 4
+ ```
  let num = 1
  switch (num%2==0) {
     case true :
@@ -57,3 +63,4 @@
     console.log("10000");
         break;
  }
+ ```
