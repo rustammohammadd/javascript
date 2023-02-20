@@ -1237,9 +1237,92 @@
 // }
 //////////////////////////////////////////////////////
 
+//1
+// let frenchfries =60
+// let burger =50
+// let chowmin =100
+// let manchurian =80
+// let cokes  =50
 
+// let frenchfriescount=Number(prompt("How many french fries (60rs per piece) do you want to order ?"))
+// let burgercount=Number(prompt("How many burgers (50rs per piece) do you want to order ?"))
+// let chowmincount=Number(prompt("How many plates of chowmin (100rs per plate) do you want to order?"))
+// let manchuriancount=Number(prompt("How many plates of Manchurian (80rs per plate) do you want to order?"))
+// let cokescount=Number(prompt("How many Cokes (50 per piece) do you want to order ?"))
 
-//aaj ka test
+// let total=0;
+// if (frenchfriescount>0) {
+//     total=total+frenchfries*frenchfriescount;
+// }
 
+// if (burgercount) {
+//     total=total+burger*burgercount
+// }
+
+// if (chowmincount) {
+//    total=total+chowmin*chowmincount 
+// }
+
+// if (manchuriancount) {
+//     total=total+manchurian*manchuriancount
+// }
+
+// if (cokescount) {
+//     total=total+cokes*cokescount
+// }
+
+// console.log("total"+total);
+
+//2
+// for(let a=5;a>=1;a--){
+//     str=""
+//     for(let b=1;b<=a;b++){
+//         if (b%2===1) {
+//            str=str+"$$" 
+//         }else{
+//             str=str+"#"
+//         }
+//     }
+//     console.log(str);
+// }
+
+// //4
+// let c=Number(prompt("Do you drink tea/coffee?"));
+// switch (c) {
+//     case 0:
+//         console.log("tea");
+//         break;
+// case 1:
+//     console.log("cofee");
+//     break;
+//     default:
+//         console.log("water");
+//         break;
+// }
+
+// //10
+// let a="Wecode Academy Jaipur"
+// let b=a.length
+// if (b>0) {
+//     for(let c=1;c<=b;c++){
+//         if (c%2==0) {
+//             console.log(c);
+//         }
+//     }
+// }else{
+//     console.log("no");
+// }
+
+//8
+// let a=10
+// let b=20
+// let c=30
+// let d=40
+// let e=50
+// if (a===b||a===c||a===d||a===e||b===c||b===d||b===e||c===d||c===e||d===e) {
+//     console.log("yes");
+// }else{
+//     console.log("no");
+// }
 
 
