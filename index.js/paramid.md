@@ -1,5 +1,5 @@
 #paramid
--1
+- 1
 ```
 for (let a = 5; a >= 1; a--) {
     let str = ""
@@ -9,7 +9,7 @@ for (let a = 5; a >= 1; a--) {
     console.log(str);
 }
 ```
--2
+- 2
 ```
 for (let a = 1; a <= 5; a++) {
     let = str = ""
@@ -19,7 +19,7 @@ for (let a = 1; a <= 5; a++) {
     console.log(str);
 }
 ```
--3
+- 3
 ```
 for(let a=1;a<=5;a++){
     let =str=""
@@ -29,7 +29,7 @@ for(let a=1;a<=5;a++){
     console.log(str);
 }
 ```
--4
+- 4
 ```
 for(let c=5;c>=1;c--){
     let str=""
@@ -39,7 +39,7 @@ for(let c=5;c>=1;c--){
     console.log(str);
 }
 ```
--5
+- 5
 ```
 for (let a = 1; a <= 5; a++) {
     for (let b = 1; b <= 5; b++) {
@@ -48,7 +48,7 @@ for (let a = 1; a <= 5; a++) {
     document.write("<br>");
 }
 ```
--6
+- 6
 ```
 for (let a = 1; a <= 10; a++) {
     let str = ""
@@ -58,7 +58,7 @@ for (let a = 1; a <= 10; a++) {
     console.log(str);
 }
 ```
--7
+- 7
 ```
 for (let a = 1; a <= 5; a++) {
     let str = ""
