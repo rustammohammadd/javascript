@@ -1302,7 +1302,11 @@
 
 // //10
 // let a="Wecode Academy Jaipur"
-// let b=a.length
+//   console.log("no");
+// }
+
+//8
+// let a=10// let b=a.length
 // if (b>0) {
 //     for(let c=1;c<=b;c++){
 //         if (c%2==0) {
@@ -1310,11 +1314,7 @@
 //         }
 //     }
 // }else{
-//     console.log("no");
-// }
-
-//8
-// let a=10
+//   
 // let b=20
 // let c=30
 // let d=40
@@ -1325,4 +1325,241 @@
 //     console.log("no");
 // }
 
+//let str ="   rustam KHAN khan  "
+//console.log(str);
+//console.log(str.length);
+//console.log(str.slice());//slice se aage or piche ka space bhi copy hota hai
+//console.log(str.substring());//substring se aage or piche ka space bhi add hota hai
+//console.log(str.substr());//isse bhi aage or piche ka space add hota hai
+//console.log(str.replace("khan","mohammad"));//ye name ko replace krta hai
+//console.log(str.replaceAll("khan","mohammad"));ye pure name ko replace krta hai
+//console.log(str.toUpperCase());//ye bde mai dikhata hai
+//console.log(str.toLowerCase());//ye chota mai dikhata hai
+//console.log(str.concat());//jaise variable mai dikhaya vaisa dikhata hai
+//console.log(str.trim());//dono side ka space nhi dikhata hai
+//console.log(str.trimStart());//aage ke space ko cover krta hai
+//console.log(str.trimEnd());//piche ke space ko cover krta hai
 
+// let ans ="rustam khan"
+// let num =ans.toString()
+//console.log(num.padStart(2,0));//ye aage jodne ka kaam krta hai
+//console.log(num.padEnd(2,0));//kisi word ko piche jodna ka kaam krta h
+//console.log(num.charAt(1));//ye word ko dundhne ka kaam krta h
+
+// //1
+// let cap="wecodeacademy"
+// console.log(cap.replace("w","W"));
+
+// //2
+// let str="rustam khan"
+// console.log(str.replace("khan","mohammad"));
+
+//4
+//1
+// let str ="9116795"
+// console.log(str.padEnd(10,"*"));
+
+
+//let str = "0123456"
+//  console.log(str.length);
+//  ------   search string
+//console.log(str.charAt(7)); // charAt ---- number --- strning 
+//console.log(str.indexOf("w"));  //// indexof ---- sting --- number  ----- wrong ---- (-1)
+// console.log(str.lastIndexOf("r"));
+//console.log(str.includes("m"));    // includes ---- strning ----- true/false  
+//console.log(str.startsWith("a",13));   /// strning ------ true /false   ---- position -- now sow 
+//console.log(str.endsWith("w",16))    /// strning ------ true /false   ---- position -- now sow 
+
+// //// string   --- string add 
+//     console.log(str.padStart(9,"*")); // --- two input - ---- ny strning ki length -  kya jodna chahte ho ---- 6 + 10 = 16  --- 
+//     console.log(str.padEnd(9,"*"));  // 
+//    console.log(str.repeat(5));
+//     console.log(str.replace("aarif","rustam"));
+
+// ////  string ko km kre gtave 
+// console.log(str.trim()); //  yhe space ko htane ka kam krta
+//console.log(str.split())
+//     console.log(str.split(""));
+//  console.log(str.split("b"));   // todne ka -- kis se todna he --- jis se aaap esko tod rhw ho vo gyab ho jay 
+// console.log(str.toUpperCase());  /// strning ko captile 
+//      console.log(str.toLowerCase());    // string  ko small leter comnverted
+// console.log(str.substring(str.length/3,-4));   // teo input --- kha se katna he , kha tk katna he
+//      console.log(str.substring(-4,-2));   /// negtive value kun lve
+// console.log(str.substring(2,5));
+//      console.log(str.slice(-4,-2));             /// two inpute  negtive value lve
+//     console.log(str.slice(1,2));
+
+
+
+
+// let arr = ["rustam",9116795488,"alimohammad","jaipur",341503]
+// console.log("my name is ",arr(0),"my mobile number is",arr(1),"my father name is",arr(2))
+
+
+// let arr = [1, 20, 3, 44, 5, 69, 7, 80, 9, 10];
+// let max = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
+
+//1 print all odd number
+/*
+let od=[1,3,5,7,8,4,2,5,7,4,5,1,9]
+for(let i=0;i<od.length;i++){
+    if (od[i]%2==1) {
+    }
+    console.log(i);
+}
+
+*/
+//2 print all even number
+/*
+let ev=[1,2,3,4,5,6,7,8,9,5,6,7,3,4]
+let counts=0
+for(let j=0;j<ev.length;j++){
+    if (ev[j]%2===0) {
+        console.log("odd");
+    } else {
+        console.log("even");
+    }
+}
+*/
+///////////////////////////////////////////////////////////////
+// let a = [1,2,3]
+// let b = [10,9,8]
+// //a.push(11)
+// //a.pop()
+// //let ans = a.join("*")
+// let ans = a.concat(b)
+// console.log(ans)
+
+
+
+// let obj = {
+//     name: "Rustam",
+//     address: "jaipur",
+//     mobile: 8745737563
+
+// }
+// console.log(obj)
+
+//function
+
+/*function functionName(){ -----function defination
+    stattement
+}
+
+functionName();---calling a function*/
+
+// function hello() {
+//     console.log("rustam khan");
+// }
+// function hell() {
+//     console.log("deshwali");
+// }
+
+// hello();
+// hello();
+// hell();
+
+// function ab(a="rk",b="kd"){
+//     console.log(a+b);
+// }
+
+// ab("rustam"," khan");
+// ab("khan","saa");
+
+// function cd(c,d){
+//     console.log(c+d);
+// }
+
+// cd(30,20);
+
+// function sum (a,b){
+//     let d=a+b;
+//     return d;
+// }
+// let b=sum ("rustam","mohammad")
+// console.log(b);
+
+// function sum(math,eng,his,sc){
+//     let a=math+eng+his+sc;
+//     return a;
+// }
+// function percentage(total){
+//     let b=total /300*100
+//     console.log(b);
+// }
+// let b=sum(50,70,20,60)
+// percentage(b)
+
+// var a =10 ;  //global variable
+// function functionName(){
+//     var b=20; //local variable
+// }
+
+// jo ki global variable hota hai vo function ke baar bhi kaam kr skta hai or andar 
+//bhi kaam kar sakta hai
+
+//jo local variable hota hai vo function ke bahar kaam nhi karta hai
+
+////////aray//////////////
+
+//var a=10,20,30 ------Error
+//aap javascript ke andar multiple value store nahi karva sakte ho
+
+//var a = "10,20,30" -----String
+
+//var a=[10,20,30]------Array
+
+// var ary= [10,20,30,40,50,60,70,80,90];
+// console.log(ary); //ye aaray ki puri value defined karta hai
+
+// var arys =[10,20,30,40,50,60,70,80,90];
+// console.log(arys[0]); //ye aaray ka index check karta hai
+
+// var ary =[10,20,30,40,50,60,70,80,90];
+// for (let a = 0; a < ary.length; a++) {
+//     console.log(ary[a]);    
+// }
+
+// var ary =[10,20,30,40,50,60,70,80,90];
+// sum =0;
+// for (let a = 0; a < ary.length; a++) {
+//     sum =sum+ary[a]  
+// }
+// console.log("total "+sum);
+
+// let arr =new Array(6);//array ko phle hi pta chal jayega ki mere andar itni valu aane vali hai ager jyada aayegi to undefined bta dega
+// arr[0]=10;
+// arr[1]=20;
+// arr[3]=30
+// for (let a = 0; a< arr.length; a++) {
+// console.log(arr[a]);    
+// }
+
+// let ary =new Array(4);
+// for (let a = 0; a < 4; a++) {
+//     ary[a]=prompt("enter the value")
+//     console.log(ary[a]);
+// } //ye user se value puchta hai
+
+/// miltidimensional array ///////////
+// let ary =[
+//     ["rustam",18,"male","bca"],
+//     ["rafik",19,"male","b.com"],
+//     ["ajeet",21,"male","bca"],
+//     ["ajeet",21,"male","bca"]
+// ];
+// for (let a = 0; a <ary.length; a++) {
+//     for(b=0;b<ary.length;b++){
+//         console.log(ary[a][b]); 
+//     }  
+// }
+
+/////modify array element///
+
+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
