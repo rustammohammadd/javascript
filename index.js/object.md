@@ -1,5 +1,4 @@
-## object
-OBJECT TEST 1
+### object
 
 Question 1.
 What is an object in JavaScript?
