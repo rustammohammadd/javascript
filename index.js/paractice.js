@@ -1564,9 +1564,85 @@ functionName();---calling a function*/
 
 
 
+//map
+
+// let map = new Map();
+// //set function to add values
+// map.set("js", 800);
+// map.set("designing", 400);
+// map.set("java", 700);
+// map.set("nodejs", 500);
+// //get function to get values based on key
+// console.log(map.get("js"));
+// console.log(map.get("nodejs"));
+// console.log(map.get("python"));
+// console.log(map);
+
+// let arr = [
+//     ["js", 500],
+//     ["designing", 400],
+//   ];
+//   //Array to Map
+//   let maps = new Map(arr);
+//   console.log(maps);
+
+// let obj = {
+//     name: "Wecode",
+//     mobile: 4545345435,
+//     pincode: 302012,
+//   };
+//   //Objec to Map
+//   let mapss = new Map(Object.entries(obj));
+//   console.log(mapss);
+
+// let obj={
+//     name:"Rustam khan",
+//     email:"rustamkhan50557@gmail.com",
+//     addres:"jaipur",
+// };
+// let obj1={
+//     name:"Rustam khan",
+//     email:"rustamkhan50557@gmail.com",
+//     addres:"jaipur",
+// };
+// let obj2={
+//     name:"Rustam khan",
+//     email:"rustamkhan50557@gmail.com",
+//     addres:"jaipur",
+// };
+// function allDetails(){
+//     console.log(`my name is ${this.name} my Email ${this.email} and my addrss ${this.addres }`
+//     );
+// };
+// allDetails.call(obj);
+// allDetails.call(obj1);
+// allDetails.call(obj2);
 
 
 
+// let student1 = {
+//     name:'Rustam',
+//     class:'12th',
+//     city:'jaipur',
+// }
+// let student2 = {
+//     name:'Ajeet',
+//     class:'11th',
+//     city:'jodhpur',
+// }
+//  function printStudentDetails(year,month,day){
+    
+//     console.log(`my name is ${this.name} my class ${this.class} and city ${this.city}, my DOB ${year}/${month}/${day}`,)
+// }
+// printStudentDetails.call(student1,"2000","04","12")
+// printStudentDetails.call(student2,"2002","05","11")
+// printStudentDetails.apply(student1,["2001","05","13"])
+// printStudentDetails.apply(student1,["2003","05","13"])
+
+// let student1_dob = printStudentDetails.bind(student1,"2003","05","13")
+// console.log("for testing")
+
+// student1_dob();
 
 
 

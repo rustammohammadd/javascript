@@ -78,3 +78,43 @@ mai new keyword ka estemal karke dusre tarike se array create kar sakte hai yadi
 parameter ko parenthesis mai pass karte hai to vah new array ki length ki tor par set hoti hai
 ```*/
 
+// Create a Set
+// const letters = new Set(["a","b","c","d"]);
+// console.log(letters.size);
+
+// const letters = new Set();
+// letters.add("a");
+// letters.add("b");
+// letters.add("c");
+// letters.add("d");
+// console.log(letters.size);
+
+// const letters = new Set();
+// const a = "a";
+// const b = "b";
+// const c = "c";
+// const d = "d";
+// letters.add(a);
+// letters.add(b);
+// letters.add(c);
+// letters.add(d);
+// console.log(letters.size);
+
+// const letters = new Set();
+// letters.add("a");
+// letters.add("b");
+// letters.add("c");
+// letters.add("d");
+// letters.add("c");
+// letters.add("c");
+// letters.add("c");
+// letters.add("e");
+// console.log(letters.size);
+
+// const letters = new Set(["a","b","c","d"]);
+// let text = "";
+// letters.forEach (function(value) {
+//   text += value 
+// })
+// console.log(text);
+
